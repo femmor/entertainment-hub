@@ -2,10 +2,10 @@ import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import TrendingScreen from './screens/TrendingScreen'
-import MoviesScreen from './screens/MoviesScreen'
-import SearchScreen from './screens/SearchScreen'
-import TVSeriesScreen from './screens/TVSeriesScreen';
+import TrendingScreen from './screens/Trending/TrendingScreen'
+import MoviesScreen from './screens/Movies/MoviesScreen'
+import SearchScreen from './screens/Search/SearchScreen'
+import TVSeriesScreen from './screens/TVSeries/TVSeriesScreen';
 
 const App = () => {
   return (

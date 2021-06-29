@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary: #04151f;
   --secondary: #183a37;
@@ -27,7 +31,7 @@ p {
 .app {
   min-height: 100vh;
   background-color: var(--light-brown);
-  /* padding-bottom: 70px; */
+  padding: 3rem 3rem 7rem 3rem;
 }
 
 .screen-title {
