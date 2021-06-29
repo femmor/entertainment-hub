@@ -12,6 +12,8 @@
 body {
   margin: 0;
   padding: 0;
+  padding-top: 90px;
+  background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,11 +27,21 @@ p {
 .app {
   min-height: 100vh;
   background-color: var(--light-brown);
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
+}
+
+.screen-title {
+  text-align: center;
+  margin-top: 0;
+  color: var(--tertiary);
 }
 
 @media (max-width: 700px) {
-  .app {
+  /* .app {
     padding-top: 75px;
+  } */
+
+  .screen-title {
+    margin-top: 0;
   }
 }
